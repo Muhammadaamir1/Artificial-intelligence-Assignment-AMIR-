@@ -1,0 +1,246 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/m2/ontologies/2017/2/SuperMarket-Ontology"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/m2/ontologies/2017/2/SuperMarket-Ontology">
+    <Prefix name="" IRI="http://www.semanticweb.org/m2/ontologies/2017/2/SuperMarket-Ontology#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Beaf_Meat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chilies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ColdDrinks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dolls"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drinks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dry-Fruits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fish"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Food"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fresh"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frozen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fruits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IceCream"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Juices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Masala"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mutton"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nuggets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Others"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Powdered_Juices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RC_Planes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RC_cars"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Salt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sugar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SuperMarket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Toy_Cars"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Toys"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vegetables"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Water"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#aka"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Beaf_Meat"/>
+        <Class IRI="#Frozen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chilies"/>
+        <Class IRI="#Spices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ColdDrinks"/>
+        <Class IRI="#Drinks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dolls"/>
+        <Class IRI="#Toys"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drinks"/>
+        <Class IRI="#SuperMarket"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dry-Fruits"/>
+        <Class IRI="#Fresh"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fish"/>
+        <Class IRI="#Frozen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Food"/>
+        <Class IRI="#SuperMarket"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fresh"/>
+        <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frozen"/>
+        <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fruits"/>
+        <Class IRI="#Fresh"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hen"/>
+        <Class IRI="#Frozen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IceCream"/>
+        <Class IRI="#Frozen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Juices"/>
+        <Class IRI="#Drinks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Masala"/>
+        <Class IRI="#Spices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mutton"/>
+        <Class IRI="#Frozen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nuggets"/>
+        <Class IRI="#Frozen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Others"/>
+        <Class IRI="#Toys"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Powdered_Juices"/>
+        <Class IRI="#Drinks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RC_Planes"/>
+        <Class IRI="#Toys"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RC_cars"/>
+        <Class IRI="#Toys"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Salt"/>
+        <Class IRI="#Spices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spices"/>
+        <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sugar"/>
+        <Class IRI="#Spices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SuperMarket"/>
+        <Class IRI="#amir"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SuperMarket"/>
+        <ObjectUnionOf>
+            <Class IRI="#Drinks"/>
+            <Class IRI="#Food"/>
+            <Class IRI="#Toys"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toy_Cars"/>
+        <Class IRI="#Toys"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toys"/>
+        <Class IRI="#SuperMarket"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vegetables"/>
+        <Class IRI="#Fresh"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Water"/>
+        <Class IRI="#Drinks"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
